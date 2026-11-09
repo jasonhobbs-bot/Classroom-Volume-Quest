@@ -1,3 +1,4 @@
+<!-- GILBERT PICTURE VIEW VERSION 3.0 | 2026-11-09 | 29 embedded theme backgrounds -->
 <!doctype html>
 <html lang="en">
 <head>
@@ -49,6 +50,123 @@ body{background:#d4edf0}
 .mic-picker select{max-width:340px;min-width:170px;flex:1;background:#fff;border:1px solid #b6cfc6;padding:9px;border-radius:9px;font:inherit;font-size:12px}
 .diag{font-size:12px;line-height:1.4;font-weight:750;color:#355649;max-width:540px;margin-top:10px;padding:9px 12px;background:rgba(255,255,255,.62);border-radius:11px}
 @media(max-width:980px){.mic-picker,.diag{margin-left:auto;margin-right:auto}}
+
+/* PICTURE-FIRST SCENIC DISPLAY — October/holiday backgrounds are now the main feature. */
+.wallpaper::after {background:linear-gradient(0deg,rgba(3,32,22,.28),transparent 48%,rgba(3,34,34,.13));}
+.scene{opacity:.0}
+.app{max-width:none;min-height:100svh;padding:17px clamp(12px,2.4vw,35px);gap:14px;display:flex;flex-direction:column}
+header{background:rgba(249,255,251,.86);border:1px solid rgba(255,255,255,.95);border-radius:20px;padding:9px 12px 9px 16px;box-shadow:0 6px 24px rgba(0,29,18,.13);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px)}
+.brand-logo{height:43px;width:43px;font-size:26px;border-radius:13px}
+.brand-title{font-size:clamp(17px,1.5vw,24px)}
+.brand-sub{font-size:10px;letter-spacing:.08em}
+.toolbar{gap:8px}.toolbar .pill{padding:10px 13px;border-radius:12px;font-size:clamp(12px,1vw,15px)}
+.hero{background:transparent!important;border:0;box-shadow:none!important;backdrop-filter:none;-webkit-backdrop-filter:none;display:flex;align-items:flex-end;justify-content:space-between;min-height:0;flex:1;gap:20px;padding:0 0 5px;border-radius:0;overflow:visible}
+.hero::after{display:none}
+.story{width:min(370px,37vw);flex:none;align-self:flex-end;display:flex;flex-direction:column;align-items:stretch;justify-content:flex-end;text-align:left;padding:16px;background:rgba(9,37,31,.78);backdrop-filter:blur(9px);-webkit-backdrop-filter:blur(9px);border:1.5px solid rgba(255,255,255,.67);border-radius:23px;box-shadow:0 17px 37px rgba(1,24,20,.25);color:white}
+.scene-name{font-size:clamp(19px,1.9vw,26px);font-weight:950;text-shadow:0 2px 6px rgba(0,0,0,.24);margin-bottom:12px;line-height:1.2}
+.story .eyebrow,.story h1,.story .description,.story .theme-banner{display:none}
+.main-actions{display:flex;flex-wrap:wrap;gap:7px}
+.main-actions #micBtn{flex:1 1 100%;font-size:clamp(15px,1.3vw,20px);padding:15px 12px;box-shadow:0 6px 20px rgba(6,14,7,.18);background:#118653;border:2px solid rgba(255,255,255,.65)}
+.main-actions #demoBtn{padding:8px 12px;font-size:12px;box-shadow:none;background:rgba(255,255,255,.18);color:#fff;border-color:rgba(255,255,255,.35)}
+.story .status-note,.story .diag{display:none}
+.story .status-note.warning,.story .diag.warning{display:block;color:#522b11;background:#fff6df;border-radius:12px;margin:12px 0 0;padding:10px;font-size:12px}
+.mic-settings .mic-picker{max-width:none;margin:0 0 16px;background:#e8f5ec}
+.mic-settings .mic-picker select{max-width:100%}
+.demo-control{background:#ffffffd9;color:#173e2d;border-radius:13px;width:100%}
+.meter-column{margin:0;align-self:flex-end;width:clamp(290px,28vw,390px);flex:none;padding:19px 18px 14px;background:rgba(248,255,253,.88);border:2px solid rgba(255,255,255,.90);border-radius:27px;backdrop-filter:blur(9px);-webkit-backdrop-filter:blur(9px);box-shadow:0 20px 55px rgba(9,39,34,.25)}
+.meter{width:min(24vw,325px);min-width:0;box-shadow:0 8px 26px rgba(9,54,44,.15),0 0 0 5px rgba(255,255,255,.5)}
+.meter::before{inset:15px}
+.readout .face{font-size:clamp(48px,5vw,73px);margin-bottom:6px}
+.readout .number{font-size:clamp(69px,7vw,102px)}
+.readout .state{font-size:clamp(19px,2.1vw,27px);margin-top:5px}
+.readout .unit{font-size:11px}
+.readout .state-description{font-size:11px;max-width:205px}
+.live-indicator{font-size:12px;margin-top:17px}
+.bottom[hidden]{display:none!important}
+.bottom{flex:0 0 auto;grid-template-columns:1.3fr 1fr;gap:12px}
+.bottom .panel{padding:12px 18px;border-radius:16px;background:rgba(255,255,255,.90)}
+.bottom .zone{padding:8px 5px}.bottom .zone .zicon{font-size:19px}
+footer{display:none}
+@media(max-width:900px){.hero{display:flex;flex-direction:column-reverse;align-items:center;justify-content:flex-start;gap:14px}.meter-column{width:min(380px,100%);align-self:center}.meter{width:min(65vw,310px)}.story{width:min(430px,100%);align-self:center;text-align:center;padding:12px 16px}.main-actions{justify-content:center}.scene-name{margin-bottom:8px}.app{min-height:100svh}.bottom{grid-template-columns:1fr}}
+@media(max-width:560px){.app{padding:9px;gap:8px}header{padding:10px}.brand-title{font-size:16px}.brand-sub{font-size:9px}.toolbar{width:100%;gap:5px}.toolbar .pill{flex:1;padding:9px 6px;font-size:12px;white-space:nowrap}.hero{padding:0}.meter-column{padding:13px}.meter{width:min(65vw,266px)}.meter::before{inset:12px}.readout .number{font-size:73px}.readout .face{font-size:49px}.readout .state{font-size:20px}.story{padding:10px 13px;border-radius:16px}.scene-name{font-size:18px}.main-actions #micBtn{padding:11px;font-size:15px}.live-indicator{margin-top:7px}.bottom .zones{grid-template-columns:repeat(2,1fr)}}
+@media(max-height:720px) and (min-width:901px){.app{padding-block:10px}.meter-column{width:315px;padding:12px}.meter{width:265px}.scene-name{font-size:18px}.story{padding:12px}}
+
+
+/* PICTURE FIRST V3 — A proper full-screen illustration, not a translucent dashboard. */
+html,body { width:100%;height:100%;min-height:100%;overflow-x:hidden; }
+body { background:#173c38; }
+.wallpaper { position:fixed!important;inset:0!important;z-index:0!important;opacity:1!important;background-size:cover!important;background-position:center center!important;filter:none!important; }
+.wallpaper::after { content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(7,24,22,.35) 0%,transparent 26%,transparent 78%,rgba(7,24,22,.11) 100%)!important; }
+.scene{display:none!important}
+.app { position:relative;z-index:1;box-sizing:border-box;width:100%;max-width:none;height:100svh;min-height:550px;margin:0;padding:0;display:block; }
+header { position:absolute;top:18px;left:20px;right:20px;z-index:4;display:flex;align-items:flex-start;justify-content:space-between;gap:10px;flex-wrap:wrap;padding:0!important;background:transparent!important;border:0!important;box-shadow:none!important;backdrop-filter:none!important;-webkit-backdrop-filter:none!important; }
+.brand { color:white;max-width:390px;display:flex;gap:10px;align-items:center;padding:9px 17px 9px 10px;border-radius:20px;background:rgba(9,43,36,.82);border:1px solid rgba(255,255,255,.54);box-shadow:0 7px 25px rgba(0,0,0,.24);backdrop-filter:blur(5px);-webkit-backdrop-filter:blur(5px); }
+.brand-logo{height:36px;width:36px;min-width:36px;border-radius:11px;font-size:24px;background:#f0fff3;}
+.brand-title{color:white;font-weight:900;font-size:clamp(15px,1.4vw,21px);line-height:1.15;letter-spacing:-.4px;}
+.brand-sub {color:#c5f1dc;font-size:10px;letter-spacing:.05em;margin-top:4px;}
+.toolbar{display:flex;align-items:center;gap:8px;justify-content:flex-end;flex-wrap:nowrap}
+.toolbar .pill{border:1px solid rgba(255,255,255,.65);border-radius:14px;background:rgba(9,43,36,.86);color:white;white-space:nowrap;font-weight:900;font-size:clamp(12px,1vw,15px);padding:11px 14px;box-shadow:0 7px 24px rgba(2,32,26,.24);backdrop-filter:blur(4px)}
+.toolbar #detailsBtn {display:none!important}
+.toolbar .pill:hover,.toolbar .pill:focus-visible{background:#0b6a4c;color:#fff}
+.hero {position:absolute!important;inset:0!important;display:block!important;min-height:0!important;padding:0!important;margin:0!important;background:transparent!important;border:0!important;box-shadow:none!important;backdrop-filter:none!important;-webkit-backdrop-filter:none!important;overflow:visible!important;pointer-events:none;}
+.hero::after{display:none!important}
+.story {position:absolute!important;left:22px;bottom:24px;z-index:3;align-self:auto!important;width:min(265px,31vw)!important;max-width:265px;padding:12px!important;text-align:left!important;display:block!important;background:rgba(10,40,34,.86)!important;border:1px solid rgba(255,255,255,.72)!important;box-shadow:0 12px 35px rgba(0,28,22,.32)!important;border-radius:20px!important;backdrop-filter:blur(5px)!important;-webkit-backdrop-filter:blur(5px)!important;color:white!important;pointer-events:auto;}
+.story .eyebrow,.story h1,.story .description,.story .theme-banner {display:none!important}
+.story .scene-name{font-size:clamp(17px,1.45vw,22px);font-weight:950;line-height:1.2;margin:0 0 3px;white-space:normal;text-shadow:none}
+.story .tiny-note{font-weight:900;color:#bfe8d4;letter-spacing:.12em;font-size:10px;margin:0 0 10px;}
+.main-actions{display:flex;flex-direction:column;gap:5px}
+.main-actions #micBtn{width:100%;min-height:47px;flex:none!important;padding:11px 7px!important;font-size:clamp(14px,1.2vw,17px)!important;border-radius:13px;background:#1ba86a!important;color:white;border:1px solid rgba(255,255,255,.75);box-shadow:0 5px 15px rgba(0,0,0,.18)}
+.main-actions #demoBtn{display:none!important}
+.story .diag,.story .status-note{display:none!important}
+.story .diag.warning,.story .status-note.warning{display:block!important;background:#fff6df!important;border-radius:10px;padding:8px;margin-top:8px;color:#693e11!important;font-size:11px;line-height:1.3}
+.demo-control{position:absolute;bottom:100%;left:0;width:265px;max-width:calc(100vw - 30px);margin-bottom:12px;border:1px solid #fff;border-radius:14px;box-shadow:0 10px 24px #0003;background:rgba(255,255,255,.96)}
+.meter-column {position:absolute!important;right:22px;bottom:24px;z-index:2;align-self:auto!important;width:clamp(230px,22vw,300px)!important;min-width:0!important;margin:0!important;padding:12px 13px 11px!important;border:2px solid rgba(255,255,255,.88);border-radius:24px!important;background:rgba(249,255,253,.91)!important;box-shadow:0 12px 32px rgba(4,40,29,.30)!important;backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px);pointer-events:auto;}
+.meter {width:clamp(190px,18vw,258px)!important;min-width:0!important;max-width:100%;margin:auto;box-shadow:0 6px 18px rgba(2,71,47,.15),0 0 0 4px #fff9!important;}
+.meter::before{inset:11px!important}
+.readout .face{font-size:clamp(36px,3.5vw,51px)!important;margin-bottom:3px!important}
+.readout .number{font-size:clamp(52px,4.7vw,72px)!important;letter-spacing:-.075em}
+.readout .unit{font-size:9px!important;letter-spacing:.08em!important}
+.readout .state{font-size:clamp(15px,1.6vw,22px)!important;margin-top:5px!important;line-height:1.12}
+.readout .state-description{font-size:10px!important;line-height:1.2;max-width:190px}
+.live-indicator{font-size:10px!important;margin:12px auto 0!important;justify-content:center;letter-spacing:.01em}
+.bottom[hidden]{display:none!important}
+.bottom{position:absolute;left:50%;bottom:20px;transform:translateX(-50%);z-index:8;width:min(750px,calc(100% - 40px));background:none;pointer-events:auto;grid-template-columns:1.3fr 1fr;gap:10px}
+.bottom .panel{padding:14px;border-radius:18px;background:rgba(252,255,252,.97);box-shadow:0 14px 40px #0004}
+.bottom .zone{padding:10px 5px}.bottom .zone .zicon{font-size:20px}
+.settings-shortcuts{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px}
+.settings-shortcuts button{border-radius:12px;padding:12px;border:1px solid #cde2d6;color:#13593e;font-weight:900;background:#ecf8f1;flex:1}
+footer{display:none!important}
+/* On the smartboard, artwork occupies the whole screen; only two little corner widgets cover it. */
+@media(max-width:800px){
+ .app{min-height:610px;height:100svh}
+ header{left:12px;right:12px;top:12px;align-items:flex-start;gap:9px}
+ .brand{padding:7px 11px 7px 7px;max-width:min(52vw,290px)}
+ .brand-title{font-size:15px}.brand-sub{font-size:9px}
+ .toolbar{gap:5px}.toolbar .pill{padding:10px 9px;font-size:12px;border-radius:11px}
+ .story{left:13px;bottom:12px;width:min(250px,44vw)!important;max-width:none;padding:10px!important}
+ .meter-column{right:13px;bottom:12px;width:min(250px,44vw)!important;padding:9px!important}
+ .meter{width:min(205px,34vw)!important}
+ .readout .number{font-size:55px!important}.readout .face{font-size:38px!important}.readout .state{font-size:16px!important}
+ .story .scene-name{font-size:17px}.main-actions #micBtn{font-size:14px!important;padding:10px 5px!important}
+ .bottom{width:min(650px,calc(100% - 20px));bottom:145px}
+}
+@media(max-width:520px){
+ .app{height:100svh;min-height:570px}
+ header{flex-direction:column;gap:6px;align-items:flex-start}
+ .brand{max-width:100%;padding:5px 11px 5px 6px}.brand-logo{width:30px;height:30px;min-width:30px;font-size:21px}
+ .brand-title{font-size:13px}.brand-sub{font-size:8px}
+ .toolbar{width:100%;justify-content:flex-start}.toolbar .pill{font-size:11px;padding:8px 10px}
+ .story{left:8px;bottom:9px;width:calc(49vw - 12px)!important;padding:8px!important}
+ .meter-column{right:8px;bottom:9px;width:calc(49vw - 12px)!important;padding:7px 4px!important;border-radius:14px!important}
+ .meter{width:min(35vw,158px)!important}
+ .meter::before{inset:7px!important}
+ .readout .face{font-size:30px!important;margin-bottom:1px!important}.readout .number{font-size:42px!important}.readout .unit{font-size:7px!important}.readout .state{font-size:13px!important;margin-top:3px!important}.readout .state-description{display:none!important}
+ .live-indicator{font-size:8px!important;margin-top:7px!important}
+ .story .scene-name{font-size:13px}.story .tiny-note{font-size:8px;margin-bottom:5px}.main-actions #micBtn{font-size:11px!important;min-height:38px;padding:8px 3px!important;border-radius:9px}
+ .bottom{bottom:160px;grid-template-columns:1fr}
+}
+
+.details-close{position:absolute;right:12px;top:-39px;border:1px solid white;border-radius:9px;padding:7px 13px;background:#0e4739;color:white;font-weight:900;box-shadow:0 4px 10px #0003;font-size:12px;}
 </style>
 </head>
 <body>
@@ -56,17 +174,17 @@ body{background:#d4edf0}
 <div class="scene" aria-hidden="true"><div class="decor d1" id="dec1">🐊</div><div class="decor d2" id="dec2">📚</div><div class="decor d3" id="dec3">⭐</div><div class="decor d4" id="dec4">✏️</div></div>
 <div class="app">
   <header>
-    <div class="brand"><div class="brand-logo" id="brandIcon">🐊</div><div><div class="brand-title">Gilbert Classroom Volume Quest</div><div class="brand-sub">Gilbert Elementary • School & Holiday Picture Themes</div></div></div>
-    <div class="toolbar"><button id="themeBtn" class="pill">🎨 Choose a Theme</button><button id="settingsBtn" class="pill iconbtn" aria-label="Open settings">⚙️ Settings</button><button id="fullscreenBtn" class="pill iconbtn" aria-label="Fullscreen mode">⛶ Full Screen</button></div>
+    <div class="brand"><div class="brand-logo" id="brandIcon">🐊</div><div><div class="brand-title">Gilbert Classroom Volume Quest</div><div class="brand-sub">Picture View • Version 3 • Gilbert Elementary</div></div></div>
+    <div class="toolbar"><button id="themeBtn" class="pill" title="Change picture background">🎨 Change Picture</button><button id="detailsBtn" class="pill" type="button" aria-controls="detailsPanel" aria-expanded="false" title="Sound zones and rewards">⭐</button><button id="settingsBtn" class="pill iconbtn" aria-label="Open settings">⚙️</button><button id="fullscreenBtn" class="pill iconbtn" aria-label="Fullscreen mode">⛶</button></div>
   </header>
-  <main class="hero">
-    <section class="story">
+  <main class="hero" aria-label="Classroom themed picture with live noise monitor">
+    <section class="story"><div class="scene-name" id="sceneThemeName">🐊 Gator Pride</div><div class="tiny-note">MICROPHONE TRACKER</div>
       <div class="eyebrow" id="seasonLabel">🐊 Gator school spirit</div>
       <h1 id="themeHeadline">Let's make some <span>great learning noise!</span></h1>
       <p class="description" id="themeDescription">Keep an eye on our classroom volume so everyone can learn, read, and have fun.</p>
       <div class="main-actions"><button class="primary" id="micBtn">🎤 START LISTENING</button><button class="light" id="demoBtn">🧪 Test Meter</button></div>
       <div class="demo-control hidden" id="demoPanel"><label for="demoSlider">Demo noise level: <output id="demoOutput">35%</output></label><input class="range" id="demoSlider" type="range" min="0" max="100" value="35"></div>
-      <div class="mic-picker"><label for="micSelect">🎙️ Microphone:</label><select id="micSelect" aria-label="Select microphone"><option value="">System default microphone</option></select></div>
+      
       <div class="diag" id="micDiagnostic">On this HTTPS website, click START LISTENING and choose Allow when Chrome asks for the microphone.</div>
       <div class="status-note" id="permissionText">Microphone audio is processed on this device. Nothing is recorded or uploaded.</div>
       <div class="theme-banner"><div class="emoji" id="bannerIcon">🐊</div><div><div class="banner-name" id="bannerTitle">Gator Pride</div><div class="banner-sub">Change backgrounds anytime — school & holidays!</div></div></div>
@@ -76,7 +194,7 @@ body{background:#d4edf0}
       <div class="live-indicator"><span class="dot" id="liveDot"></span><span id="liveLabel">MICROPHONE IS OFF</span></div>
     </section>
   </main>
-  <section class="bottom" aria-label="Volume guide and classroom challenge">
+  <section class="bottom" id="detailsPanel" aria-label="Volume guide and classroom challenge" hidden><button id="closeDetails" class="details-close" type="button" aria-label="Close details">✕ Close</button>
     <div class="panel"><h2 class="panel-title">Our classroom sound zones</h2><div class="zones" id="zones">
       <div class="zone" data-zone="0"><span class="zicon">🤫</span>Quiet<em>Very calm</em></div>
       <div class="zone" data-zone="1"><span class="zicon">😊</span>Just Right<em>Learning sound</em></div>
@@ -92,7 +210,8 @@ body{background:#d4edf0}
 </div>
 <div class="overlay" id="settingsOverlay" role="dialog" aria-modal="true" aria-labelledby="settingsTitle">
   <div class="modal narrow"><div class="modal-head"><h2 id="settingsTitle">⚙️ Teacher Controls</h2><button class="close" data-close="settingsOverlay" aria-label="Close settings">×</button></div>
-    <div style="font-weight:900">Select an activity</div><div class="modechoices" id="modeChoices"><button class="modebtn" data-mode="Reading">📖 Silent reading</button><button class="modebtn" data-mode="Independent">✏️ Independent work</button><button class="modebtn" data-mode="Group">🧩 Group work</button><button class="modebtn" data-mode="Discussion">🗣️ Discussion</button></div>
+    <div class="mic-settings"><div class="mic-picker"><label for="micSelect">🎙️ Microphone:</label><select id="micSelect" aria-label="Select microphone"><option value="">System default microphone</option></select></div></div>
+    <div class="settings-shortcuts"><button id="settingsDetails" type="button">⭐ Sound zones & rewards</button><button id="settingsDemo" type="button">🧪 Test the meter</button></div><div style="font-weight:900">Select an activity</div><div class="modechoices" id="modeChoices"><button class="modebtn" data-mode="Reading">📖 Silent reading</button><button class="modebtn" data-mode="Independent">✏️ Independent work</button><button class="modebtn" data-mode="Group">🧩 Group work</button><button class="modebtn" data-mode="Discussion">🗣️ Discussion</button></div>
     <div class="form-row"><div class="form-top"><label for="sensitivity">Microphone sensitivity</label><output id="sensOutput">5 / 10</output></div><input class="range" id="sensitivity" type="range" min="1" max="10" value="5"><div class="hint">Increase this if the meter barely moves. Decrease it if the meter stays at 100%.</div></div>
     <div class="form-row"><div class="form-top"><label for="quietLimit">Quiet zone ends at</label><output id="quietOutput">25%</output></div><input class="range" id="quietLimit" type="range" min="5" max="50" value="25"></div>
     <div class="form-row"><div class="form-top"><label for="warnLimit">Getting Loud starts at</label><output id="warnOutput">65%</output></div><input class="range" id="warnLimit" type="range" min="30" max="85" value="65"></div>
@@ -253,7 +372,7 @@ let saved={};try{saved=JSON.parse(localStorage.getItem('volumeQuestSettings')||'
 const settings={...defaults,...saved};
 let themeFilter='All',running=false,demo=false,audioContext=null,stream=null,analyser=null,animationId=0,smoothed=0,current=0,zone=-1,calmSeconds=0,stars=0,lastTick=0;
 function store(){try{localStorage.setItem('volumeQuestSettings',JSON.stringify(settings))}catch(e){}}
-function setTheme(key){let t=themes.find(x=>x.key===key)||themes[0];settings.theme=t.key;store();document.documentElement.style.setProperty('--bg1',t.bg[0]);document.documentElement.style.setProperty('--bg2',t.bg[1]);document.documentElement.style.setProperty('--accent',t.accent);document.documentElement.style.setProperty('--meter','#35b77b');$('brandIcon').textContent=t.icon;$('bannerIcon').textContent=t.icon;$('bannerTitle').textContent=t.name;$('seasonLabel').textContent=t.icon+' '+t.label;$('themeHeadline').innerHTML=`${t.headline[0]} <span>${t.headline[1]}</span>`;$('themeDescription').textContent=t.desc;t.deco.forEach((emoji,i)=>$('dec'+(i+1)).textContent=emoji);applyPicture(t);renderThemes()}
+function setTheme(key){let t=themes.find(x=>x.key===key)||themes[0];settings.theme=t.key;store();document.documentElement.style.setProperty('--bg1',t.bg[0]);document.documentElement.style.setProperty('--bg2',t.bg[1]);document.documentElement.style.setProperty('--accent',t.accent);document.documentElement.style.setProperty('--meter','#35b77b');$('brandIcon').textContent=t.icon;$('bannerIcon').textContent=t.icon;$('bannerTitle').textContent=t.name;$('sceneThemeName').textContent=t.icon+' '+t.name;$('seasonLabel').textContent=t.icon+' '+t.label;$('themeHeadline').innerHTML=`${t.headline[0]} <span>${t.headline[1]}</span>`;$('themeDescription').textContent=t.desc;t.deco.forEach((emoji,i)=>$('dec'+(i+1)).textContent=emoji);applyPicture(t);renderThemes()}
 function renderThemes(){let filtered=themes.filter(t=>themeFilter==='All'||t.group===themeFilter);$('themeGrid').innerHTML='';filtered.forEach(t=>{let b=document.createElement('button');b.type='button';b.className='theme-tile'+(settings.theme===t.key?' selected':'');b.style.setProperty('--tile1',t.bg[0]);b.style.setProperty('--tile2',t.bg[1]);b.style.backgroundImage='url("'+getPicture(t)+'")';b.setAttribute('aria-pressed',settings.theme===t.key?'true':'false');b.innerHTML=`<span>${t.icon}</span><strong>${t.name}</strong>`;b.addEventListener('click',()=>{setTheme(t.key);closeModal('themeOverlay')});$('themeGrid').appendChild(b)})}
 function openModal(id){$(id).classList.add('open');$(id).querySelector('.close').focus()}
 function closeModal(id){$(id).classList.remove('open')}
@@ -303,6 +422,35 @@ $('resetStars').onclick=()=>{stars=0;calmSeconds=0;lastTick=0;$('stars').textCon
 $('fullscreenBtn').onclick=async()=>{try{if(document.fullscreenElement)await document.exitFullscreen();else await document.documentElement.requestFullscreen()}catch(e){$('permissionText').textContent='Full screen is unavailable in this browser. Use the browser’s full-screen option.'}};
 window.addEventListener('pagehide',stopAudio);
 refreshControls();setTheme(settings.theme);renderValue(0);
+
+// Scenic display: keep the picture visible, and show the detailed controls only on request.
+const detailsButton = $('detailsBtn');
+const detailsPanel = $('detailsPanel');
+detailsButton.addEventListener('click', () => {
+  const willOpen = detailsPanel.hidden;
+  detailsPanel.hidden = !willOpen;
+  detailsButton.setAttribute('aria-expanded', String(willOpen));
+  detailsButton.textContent = willOpen ? '✖ Hide Details' : '📊 Details';
+});
+// Errors remain visible on the scenic display, without a permanent help box.
+const statusNotice = $('permissionText');
+const diagnostics = $('micDiagnostic');
+function syncScenicNotices() {
+  const a = statusNotice.textContent.trim();
+  const b = diagnostics.textContent.trim();
+  statusNotice.classList.toggle('warning', /^⚠|blocked|unavailable|error/i.test(a));
+  diagnostics.classList.toggle('warning', /^⚠|no microphone|could not/i.test(b));
+}
+new MutationObserver(syncScenicNotices).observe(statusNotice, {subtree:true,childList:true,characterData:true});
+new MutationObserver(syncScenicNotices).observe(diagnostics, {subtree:true,childList:true,characterData:true});
+syncScenicNotices();
+
+
+// Picture View V3: details and testing are tools inside Teacher Settings, not on the artwork.
+$('settingsDetails').addEventListener('click',()=>{closeModal('settingsOverlay');$('detailsBtn').click();});
+$('settingsDemo').addEventListener('click',()=>{closeModal('settingsOverlay');$('demoBtn').click();});
+
+$('closeDetails').addEventListener('click',()=>$('detailsBtn').click());
 </script>
 </body>
 </html>
